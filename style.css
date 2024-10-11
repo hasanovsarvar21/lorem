@@ -127,8 +127,34 @@ nav {
     gap: 24px;
 }
 
+main{
+    margin-top: 210px;
+}
 
 /* -------------------Header bottom qismi tugadi---------------------------*/
 
 
 /* -------------------Main overview qismi boshlandi---------------------------*/
+
+.overview {
+    background-color: var(--orange-color);
+
+}
+
+.img-overview {
+    margin-top: 87px 0px 0px 0px;
+    width: 100%;
+}
+
+.logos-overview img {
+    width: 159px;
+    height: 32px;
+    margin: 20px 0px 0px 0px;
+}
+
+.logos-overview {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 0px;
+}
